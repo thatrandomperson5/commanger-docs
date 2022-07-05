@@ -1,7 +1,7 @@
 Welcome to Commanger's documentation!
 ===================================
 
-**Commanger** (/com-manger/) 
+**Commanger** (/com-manger/) A easy to use, extremely configurable shell/terminal command manager for python.
 
 .. note::
 

@@ -1,9 +1,6 @@
-Template for the Read the Docs tutorial
+Commanger Docs for python
 =======================================
 
-This GitHub template includes fictional Python library
-with some basic Sphinx docs.
-
-Read the tutorial here:
-
-https://docs.readthedocs.io/en/stable/tutorial/
+The home of the docs and source code of Commanger
+Find more here :ref:`https://pypi.org/project/commanger/`
+Read the docs :ref:`https://python-commanger-docs.readthedocs.io/en/latest/index.html`

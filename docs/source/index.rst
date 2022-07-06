@@ -42,5 +42,8 @@ Contents
 .. toctree::
 
    usage
+   Configure-Commager
+   Sub-Commands
+   Tups
    
 

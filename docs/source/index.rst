@@ -43,7 +43,14 @@ Contents
    
    usage
    configure
-   beta
+
+Beta
+--------
+
+.. toctree::
+
+   Beta/sub
+   Beta/tups
 
    
 

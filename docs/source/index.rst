@@ -42,7 +42,7 @@ Contents
 .. toctree::
 
    usage
-   Configure-Commager
+   configure
    Sub-Commands
    Tups
    

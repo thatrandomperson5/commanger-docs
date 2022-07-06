@@ -67,11 +67,13 @@ Now we should have a config with 2 positional arguments and 2 toggles, one named
 Lets call it now with:
 
 .. code:: bash
+
     python main.py hello world
 ..
 
 With your current code you should get this result:
 
 .. code:: python
+
     {1: "hello", 2: "world", "b":False, "c", False}
 ..

@@ -110,6 +110,8 @@ You can do what you want with the args in the main function, it's up to you. Tha
 *********************
 Tool usage
 *********************
-          
-commanger.ppconfig(self, config=None):
-          
+ 
+.. raw::
+
+  <b3>commanger.ppconfig(self, config=None):</b3>
+.

@@ -108,7 +108,7 @@ You can do what you want with the args in the main function, it's up to you. Tha
 ------------------------------------------------------------------------------------------------------------------------
  
 *********************
-Tool usage
+Function Tool usage
 *********************
  
 .. raw:: html

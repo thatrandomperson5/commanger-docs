@@ -43,7 +43,8 @@ Contents
    
    usage
    configure
- 
+
+
 Beta
 =====
 .. toctree::

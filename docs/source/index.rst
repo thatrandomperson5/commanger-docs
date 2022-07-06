@@ -40,11 +40,14 @@ Contents
 --------
 
 .. toctree::
-   :maxdepth: 2
+   
    usage
    configure
-   Beta
-       Beta/sub
-       Beta/tups
+ 
+Beta
+=====
+.. toctree::
+   Beta/sub
+   Beta/tups
    
 

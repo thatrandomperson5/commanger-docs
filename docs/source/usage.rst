@@ -113,6 +113,16 @@ Function Tool usage
  
 .. raw:: html
 
-  <p>commanger.<strong style="font-size: 20px;">ppconfig(<i>self, config=None</i>):</strong></p>
+  <p>commanger.<strong style="font-size: 20px;">ppconfig(<i>self, config=None</i>)</strong></p>
   
 ..
+
+  Returns a pretty version of your config so you can easily edit you config. If you have a seprate config then provide it. 
+  
+  Usage:
+  
+.. code:: python
+
+print(commanger.ppconfig())
+..
+  

@@ -29,7 +29,7 @@ templates_path = ['_templates']
 
 # -- Options for HTML output
 
-html_theme = '"master"'
+html_theme = 'master'
 
 # -- Options for EPUB output
 epub_show_urls = 'footnote'

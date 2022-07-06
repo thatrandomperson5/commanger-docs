@@ -113,6 +113,6 @@ Tool usage
  
 .. raw:: html
 
-  <h3>commanger.<h4>ppconfig(self, config=None):</h4></h3>
+  <h3>commanger.<b>ppconfig(self, config=None):</b></h3>
   
 ..

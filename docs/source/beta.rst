@@ -5,5 +5,5 @@ Beta
 All the contents are usable but not complete
 
 .. toctree::
-  Beta/sub
-  Beta/tups
+   Beta/sub
+   Beta/tups

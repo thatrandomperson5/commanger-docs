@@ -40,7 +40,7 @@ Basic Example: Continued
 We start where we left off:
 
 .. code:: python
-
+    #main.py
     cmd.basicConfig([1,2,"b"]) #set a basic config
 
     @cmd.command #Attach the main func
@@ -63,3 +63,9 @@ Now lets change the config abit:
 ..
 
 Now we should have a config with 2 positional arguments and 2 toggles, one named "b" and the other named "c"
+
+Lets call it now with:
+.. code:: bash
+ python main.py hello world
+..
+With your current code you should get

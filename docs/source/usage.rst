@@ -41,11 +41,11 @@ We start where we left off:
 
 .. code:: python
 
-cmd.basicConfig([1,2,"b"]) #set a basic config
+    cmd.basicConfig([1,2,"b"]) #set a basic config
 
-@cmd.command #Attach the main func
-def main(args): #Take in the args
-    print(args)
+    @cmd.command #Attach the main func
+    def main(args): #Take in the args
+        print(args)
 
 ..
 
@@ -53,7 +53,7 @@ Now lets change the config abit:
 
 .. code:: python
 
-cmd.basicConfig([1,2,"b","c"])
+ cmd.basicConfig([1,2,"b","c"])
 
 
 ..

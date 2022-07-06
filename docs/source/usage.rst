@@ -75,5 +75,5 @@ With your current code you should get this result:
 
 .. code:: python
 
-    {1: "hello", 2: "world", "b":False, "c", False}
+    {1: "hello", 2: "world", "b": False, "c": False}
 ..

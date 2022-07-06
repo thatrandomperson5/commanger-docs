@@ -43,7 +43,7 @@ Contents
    
    usage
    configure
-   Beta
+   beta
 
    
 

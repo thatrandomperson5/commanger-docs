@@ -113,5 +113,5 @@ Tool usage
  
 .. raw::
 
-  <b3>commanger.ppconfig(self, config=None):</b3>
+  <h3>commanger.ppconfig(self, config=None):</h3>
 .

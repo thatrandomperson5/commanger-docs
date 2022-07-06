@@ -48,11 +48,13 @@ def main(args): #Take in the args
     print(args)
 
 ..
+
 Now lets change the config abit:
 
 .. code:: python
 
 cmd.basicConfig([1,2,"b","c"])
+
 
 ..
 

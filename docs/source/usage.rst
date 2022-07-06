@@ -30,3 +30,4 @@ Once you install commanger the next step is preparing the file with basic code:
 .. note::
  commanger should only be called once per process
 ..
+As shown above you need to import the class then init it with ``commanger(name)``, name is not yet used. Now lets get started!

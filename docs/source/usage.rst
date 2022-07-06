@@ -111,7 +111,7 @@ You can do what you want with the args in the main function, it's up to you. Tha
 Tool usage
 *********************
  
-.. raw::
+.. raw:: html
 
   <h3>commanger.ppconfig(self, config=None):</h3>
   

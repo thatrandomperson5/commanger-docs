@@ -43,7 +43,7 @@ Contents
 
    usage
    configure
-   Sub-Commands
-   Tups
+   sub
+   tups
    
 

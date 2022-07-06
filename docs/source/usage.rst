@@ -123,6 +123,7 @@ Function Tool usage
   
 .. code:: python
 
-print(commanger.ppconfig())
+    print(commanger.ppconfig())
+
 ..
   

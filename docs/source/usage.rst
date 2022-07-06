@@ -59,7 +59,7 @@ Now lets change the config abit:
 ..
 
 .. note::
-Nums in the basic config are positional arguments and strings are toggle arguments.
+ Nums in the basic config are positional arguments and strings are toggle arguments.
 ..
 
 Now we should have a config with 2 positional arguments and 2 toggles, one named "b" and the other named "c"

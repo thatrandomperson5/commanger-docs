@@ -43,7 +43,6 @@ Contents
 
    usage
    configure
-   Beta/sub
-   Beta/tups
+   beta
    
 

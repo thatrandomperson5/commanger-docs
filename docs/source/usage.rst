@@ -91,5 +91,5 @@ you should get the error:
 
 .. code:: python
 
-   ArgumentError: Arg number 2 not in ["main.py","helloworld"]
+   commanger.commanger.ArgumentError: Arg number 2 not in ["main.py","helloworld"]
 ..

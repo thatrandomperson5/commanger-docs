@@ -1,5 +1,12 @@
+#####
 Configure Commanger: configure all the way!
-=================================================
+#####
 
+*****
+Configuration tutorial
+*****
 
-Something here soon
+*****
+Types:
+*****
+

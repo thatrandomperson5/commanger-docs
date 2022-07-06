@@ -84,7 +84,7 @@ you get:
 .. code:: python
 
     {"1": "hello", "1": "world", "b": True, "c": False}
-..
+..u
 
 And if you run this: ``python main.py helloworld``,
 you should get the error:
@@ -93,3 +93,11 @@ you should get the error:
 
    commanger.commanger.ArgumentError: Arg number 2 not in ["main.py","helloworld"]
 ..
+
+You can do what you want with the args in the main function, it's up to you. Thats it for basic usage!
+
+.. note::
+ In the future I will add more tools to help you manage arguments
+..
+.. 
+ Future note. remove later

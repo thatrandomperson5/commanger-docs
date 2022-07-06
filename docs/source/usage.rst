@@ -126,4 +126,13 @@ Function Tool usage
     print(commanger.ppconfig())
 
 ..
+
+
+
+.. raw:: html
+
+  <p>commanger.<strong style="font-size: 20px;">eval(<i>self, args</i>)</strong></p>
   
+..
+
+The arg content parser. Input of: ``"(hi,hello,1)"`` would be parsed to ``('hi','hello',1)`` (python formated and typed.)

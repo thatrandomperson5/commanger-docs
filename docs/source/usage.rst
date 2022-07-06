@@ -77,3 +77,19 @@ With your current code you should get this result:
 
     {"1": "hello", "1": "world", "b": False, "c": False}
 ..
+
+If you run this: ``python main.py hello world -b``,
+you get:
+
+.. code:: python
+
+    {"1": "hello", "1": "world", "b": True, "c": False}
+..
+
+And if you run this: ``python main.py helloworld``,
+you should get the error:
+
+.. code:: python
+
+   ArgumentError: Arg number 2 not in ["main.py","helloworld"]
+..

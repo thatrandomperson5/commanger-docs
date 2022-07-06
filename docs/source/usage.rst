@@ -84,7 +84,7 @@ you get:
 .. code:: python
 
     {"1": "hello", "1": "world", "b": True, "c": False}
-..u
+..
 
 And if you run this: ``python main.py helloworld``,
 you should get the error:

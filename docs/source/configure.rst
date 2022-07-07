@@ -113,7 +113,7 @@ The in setting it to regulate what kind of input the arguments can receive. You 
 Part 5 - The position
 ^^^^^^^^^
 
-The pos setting is what position the positional argument will be called at. It is also the name (in string form) of the output argument. Setting the pos to 0 won't work becuase the name of the file takes that position, so always start with pos:0
+The pos setting is what position the positional argument will be called at. It is also the name (in string form) of the output argument. Setting the pos to 0 won't work becuase the name of the file takes that position, so always start with ``pos:0``
 
 ------------------
 

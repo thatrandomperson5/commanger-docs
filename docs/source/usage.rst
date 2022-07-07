@@ -40,6 +40,7 @@ Basic Example: Continued
 We start where we left off:
 
 .. code:: python
+
     #main.py
     cmd.basicConfig([1,2,"b"]) #set a basic config
 

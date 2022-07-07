@@ -27,14 +27,14 @@ You should get this output in your console:
           type: pos,
           in: [None],
           pos: 1,
-          base: None, #Gen error
+          base: None, #Gen error, will be patched
       }, 
 
       2: {
           type: pos,
           in: [None],
           pos: 2,
-          base: None, #Gen error
+          base: None, #Gen error, will be patched
       }, 
 
       a: {
@@ -51,6 +51,9 @@ You should get this output in your console:
 ..
 
 But as you go on you will realize that the `basicCfig()` function is very limited. So you will need to set it manually as a dict:
+
+First more Advanced cfig
+==========
 
 .. code:: python
 
@@ -71,6 +74,12 @@ But as you go on you will realize that the `basicCfig()` function is very limite
 
  These can get very big. You might want to move it to it's own file then import it
 ..
+Below are the parts as they are marked in the code block.
+
+Part 1
+^^^^^^^^^
+Here is the type of the arg. There are alot of types with different config settings but there will always be the `"type"` config setting.
+
 *****
 Types:
 *****

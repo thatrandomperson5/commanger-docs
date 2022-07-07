@@ -98,6 +98,16 @@ Part 3 - Positinal argument naming
 
 ------------------
 
+Part 4 - The In setting
+^^^^^^^^^
+
+The in setting it to regulate what kind of input the arguments can receive. You use type objects like ``str, int, list, tuple, set, dict`` (All of those work), You can also except any with ``[None]``. If the user gives a wrong type it throws an ``ArgumentTypeError``.
+
+.. note::
+
+ The `"in"` setting is used by alot of arg types.
+..
+
 *****
 Types:
 *****

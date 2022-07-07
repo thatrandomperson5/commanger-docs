@@ -5,9 +5,9 @@
 project = 'Commanger'
 
 author = 'ThatRandomPerson'
-
+copyright = "ThatRandomPerson"
 release = '0.1'
-version = '0.1.1'
+version = '0.1.3'
 
 # -- General configuration
 

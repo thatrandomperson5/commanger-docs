@@ -144,7 +144,7 @@ Function Tool usage
   
 ..
 
-    Gives args to the main function as kwargs. you can hanle them like this:
+    Gives args to the main function as kwargs. you can handle them like this:
     
 .. code::
 

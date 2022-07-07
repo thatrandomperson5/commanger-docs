@@ -84,7 +84,7 @@ Here is the type of the arg. There are alot of types with different config setti
 
 Part 2 - Toggle base setting
 ^^^^^^^^^
-The toggle `"base"` setting is default value of a toggle or long toggle. For example if did not have the ``-a`` arg then it will go to the default value, if the arg is there it will be the opposite. So true and false.
+The toggle `"base"` setting is default value of a toggle or long toggle. For example (With a's `"base"` as ``True``) if did not have the ``-a`` arg then it will go to the default value, if the arg is there it will be the opposite. So true and false.
 
 *****
 Types:

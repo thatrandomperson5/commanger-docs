@@ -76,9 +76,15 @@ First more Advanced cfig
 ..
 Below are the parts as they are marked in the code block.
 
-Part 1
+Part 1 - The type setting
 ^^^^^^^^^
-Here is the type of the arg. There are alot of types with different config settings but there will always be the `"type"` config setting.
+Here is the type of the arg. There are alot of types with different config settings but there will always be the `"type"` config setting. If you have a invalid type your config branch will be ignored. As shown above the type is set to `"tg"` or toggle.
+
+---------------
+
+Part 2 - Toggle base setting
+^^^^^^^^^
+The toggle `"base"` setting is default value of a toggle or long toggle. For example if did not have the ``-a`` arg then it will go to the default value, if the arg is there it will be the opposite. So true and false.
 
 *****
 Types:

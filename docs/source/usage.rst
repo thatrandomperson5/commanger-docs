@@ -137,3 +137,20 @@ Function Tool usage
 ..
 
     The arg content parser. Input of: ``"(hi,hello,1)"`` would be parsed to ``('hi','hello',1)`` (python formated and typed.)
+
+.. raw:: html
+
+  <p>commanger.<strong style="font-size: 20px;">commandU(<i>self, funct</i>)</strong></p>
+  
+..
+
+    Gives args to the main function as kwargs. you can hanle them like this:
+    
+.. code::
+
+    @commanger.commandU
+    def main(*,h,hi,j,jk): #keyword arguments are defined with a *
+        pass
+..
+
+

@@ -117,6 +117,20 @@ The pos setting is what position the positional argument will be called at. It i
 
 ------------------
 
+Types: introduction
+==========
+
+A list of the other types below:
+
+ * Toggle
+ * Char
+ * Long
+ * Sticky
+ * Range
+ * Hard
+
+------------------
+
 *****
 Types:
 *****

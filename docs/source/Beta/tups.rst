@@ -2,7 +2,7 @@ Tups in commanger
 ==================
 
 What is tup?
-It's a minimal way to call commands without the command line. It may be usfull if you are making your own command line.
+It's a minimal way to call commands without the command line. It may be usefull if you are making your own command line.
 
 *****
 Tup setup

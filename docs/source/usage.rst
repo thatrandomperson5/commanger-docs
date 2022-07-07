@@ -8,7 +8,7 @@ Installation
 
 Pip is the best way to install Commanger, you can do it with the command below
 
-.. code:: bash
+.. code:: console
 
     pip install commanger
 
@@ -67,7 +67,7 @@ Now we should have a config with 2 positional arguments and 2 toggles, one named
 
 Lets call it now with:
 
-.. code:: bash
+.. code:: console
 
     python main.py hello world
 ..
@@ -76,7 +76,7 @@ With your current code you should get this result:
 
 .. code:: python
 
-    {"1": "hello", "1": "world", "b": False, "c": False}
+    {"1": "hello", "2": "world", "b": False, "c": False}
 ..
 
 If you run this: ``python main.py hello world -b``,
@@ -84,7 +84,7 @@ you get:
 
 .. code:: python
 
-    {"1": "hello", "1": "world", "b": True, "c": False}
+    {"1": "hello", "2": "world", "b": True, "c": False}
 ..
 
 And if you run this: ``python main.py helloworld``,

@@ -50,7 +50,7 @@ We start where we left off:
 
 ..
 
-Now lets change the config abit:
+Now lets change the config a bit:
 
 .. code:: python
 

@@ -89,6 +89,7 @@ The toggle `"base"` setting is default value of a toggle or long toggle. For exa
 ---------------
 
 Part 3 - Positinal argument naming
+
 .. note:: 
 
  Positinal arguments names do not matter. More info in part 5.

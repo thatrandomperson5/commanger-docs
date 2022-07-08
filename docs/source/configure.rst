@@ -208,11 +208,34 @@ Now r will be set to "hello world haha lol"
 
 Sticky Range
 ^^^^^
+A range except there is no space between the char and the front quote. Example:
+
+.. code:: console
+
+ python main.py -R<hello world>
+..
+
+R is now "hello world"
 
 Long Range
 ^^^^^
+A range but has a string instead of a char as a name. Example:
+
+.. code:: console
+
+ python main.py --lrange <hi hello>
+..
+
+lrange is now set to "hi hello".
 
 Hard
 =====
 
+Like a long except it is required. If you don't have it it will throw an error. Example!
 
+.. code:: console
+
+ python main.py -*hard hello
+..
+
+The hard is now set to hello.

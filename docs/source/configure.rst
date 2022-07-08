@@ -328,7 +328,7 @@ The hard is now set to hello.
 
 Example config:
 
-.. code::
+.. code:: python
 
     "hard": {
         "type": "hard", #A long that is required

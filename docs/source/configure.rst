@@ -138,7 +138,7 @@ Types:
 Toggle
 ======
 
-A char that can be True or False depending on settings and if it exists. example of calling:
+A char that can be True or False depending on settings(Above) and if it exists. example of calling:
 
 .. code:: console
 

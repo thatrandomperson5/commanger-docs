@@ -196,6 +196,16 @@ Now S[1] has the value of hello[2]. Notice how they look like they are sticking 
 Range
 =====
 
+Ranges are chars with start quotes and end quotes to contain a value. The quotes are defined in the config with ``"quote":`` and ``"bquote":``. Example with quotes as "<" and ">":
+
+.. code:: console
+
+ python main.py -r <hello world haha lol>
+
+..
+
+Now r will be set to "hello world haha lol"
+
 Sticky Range
 ^^^^^
 

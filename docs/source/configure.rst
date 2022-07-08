@@ -182,6 +182,17 @@ Now long is set to hello.
 Sticky
 =====
 
+A sticky is a sticky char. instead of the name and the value being 2 arguments, they are one. Example:
+
+.. code::
+
+ python main.py -Shello
+                ^  ^
+                1  2
+..
+
+Now S[1] has the value of hello[2]. Notice how they look like they are sticking to eachother, that is why they are "sticky".
+
 Range
 =====
 

@@ -184,7 +184,7 @@ Sticky
 
 A sticky is a sticky char. instead of the name and the value being 2 arguments, they are one. Example:
 
-.. code::
+.. code:: console
 
  python main.py -Shello
                 ^  ^

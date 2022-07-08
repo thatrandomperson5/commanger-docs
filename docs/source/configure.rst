@@ -145,6 +145,16 @@ A char that can be True or False depending on settings(Above) and if it exists. 
  python main.py -t
 ..
 
+Example config:
+
+.. code:: python
+
+    "t": {
+        "type": "tg", #Char toggle, eg. -t
+        "base": False #Without -t arg it is false
+    },
+..
+
 Long Toggle
 ^^^^^^
 A toggle which is a string. example of calling:
@@ -152,6 +162,16 @@ A toggle which is a string. example of calling:
 .. code:: console
 
  python main.py --toggle
+..
+
+Example config:
+
+.. code:: python
+
+    "toggle": {
+        "type": "ltg", #Long string toggle, eg. --toggle
+        "base": True #Without --toggle arg it is true
+    },
 ..
 
 Char
@@ -167,6 +187,16 @@ A char argument with a value after it. example:
 
 Now the char "c"[1] has the value of hello[2]. If char "c" does not exist the value will return None. If c does not have a value an error should be thrown.
 
+Example config:
+
+.. code:: python
+
+    "c": {
+        "type": "char", #Called like: commandname -c int/str_value --next_arg
+        "in": [str, int]
+    },
+..
+
 Long
 =====
 
@@ -178,6 +208,16 @@ Longs are basically chars but with a string name:
 ..
 
 Now long is set to hello.
+
+Example config:
+
+.. code:: python
+
+    "long": {
+        "type": "long", #Called like: commandname --long (tupe, list) -n
+        "in": [list, tuple] 
+    },
+..
 
 Sticky
 =====
@@ -193,6 +233,16 @@ A sticky is a sticky char. instead of the name and the value being 2 arguments, 
 
 Now S[1] has the value of hello[2]. Notice how they look like they are sticking to eachother, that is why they are "sticky".
 
+Example config:
+
+.. code:: python
+
+    "S": {
+        "type": "sticky", #Called like: commandname -S{dict} --next_arg
+        "in": [dict]
+    },
+..
+
 Range
 =====
 
@@ -206,6 +256,18 @@ Ranges are chars with start quotes and end quotes to contain a value. The quotes
 
 Now r will be set to "hello world haha lol"
 
+Example config:
+
+.. code:: python
+
+    "R": {
+       "type": "range", #Called like: commandname -R ::hi hello lol hehe:: --next_arg
+        "in": [str],
+        "quote": "::",
+        "bquote": "::"
+    },
+..
+
 Sticky Range
 ^^^^^
 A range except there is no space between the char and the front quote. Example:
@@ -216,6 +278,18 @@ A range except there is no space between the char and the front quote. Example:
 ..
 
 R is now "hello world"
+
+Example config:
+
+.. code:: python
+
+    "r": {
+        "type": "srange", #Called like: commandname -r(hi hello tehe) -n
+        "in": [str],
+        "quote": "(",
+        "bquote": ")"       
+    },
+..
 
 Long Range
 ^^^^^
@@ -228,6 +302,18 @@ A range but has a string instead of a char as a name. Example:
 
 lrange is now set to "hi hello".
 
+Example config:
+
+.. code:: python
+
+    "longR": {
+        "type": "lrange", #Called like: commandname --longR +<hello world>+ -n
+        "in": [str],
+        "quote": "+<",
+        "bquote": ">+"
+    },
+..
+
 Hard
 =====
 
@@ -239,3 +325,13 @@ Like a long except it is required. If you don't have it it will throw an error. 
 ..
 
 The hard is now set to hello.
+
+Example config:
+
+.. code::
+
+    "hard": {
+        "type": "hard", #A long that is required
+        "in": [int]
+    }
+..

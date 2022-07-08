@@ -156,9 +156,28 @@ A toggle which is a string. example of calling:
 
 Char
 ======
+A char argument with a value after it. example:
+
+.. code:: console
+
+ python main.py -c hello
+                ^   ^
+                1   2
+..
+
+Now the char "c"[1] has the value of hello[2]. If char "c" does not exist the value will return None. If c does not have a value an error should be thrown.
 
 Long
 =====
+
+Longs are basically chars but with a string name:
+
+.. code:: console
+
+ python main.py --long hello
+..
+
+Now long is set to hello.
 
 Sticky
 =====

@@ -138,8 +138,21 @@ Types:
 Toggle
 ======
 
+A char that can be True or False depending on settings and if it exists. example of calling:
+
+.. code:: console
+
+ python main.py -t
+..
+
 Long Toggle
 ^^^^^^
+A toggle which is a string. example of calling:
+
+.. code:: console
+
+ python main.py --toggle
+..
 
 Char
 ======

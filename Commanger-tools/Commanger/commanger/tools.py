@@ -12,7 +12,7 @@ class subCommanger:
         self.depth = depth
         self.cfig = {}
         self.tup =None
-        
+        self.error_handler = parent.error_handler
         self.argv = sys.argv
     class ArgumentError(Exception):
         def __init__(self, msg):
@@ -236,12 +236,15 @@ class subCommanger:
         Same as parent
         """
         self.cfig = self.parent.basicCfig(l, False)
+    def set_error_handler(self, handle):
+        self.error_handler = handle
 class commanger:
     def __init__(self, globe=__name__):
         self.name = globe
         self.cfig = {}
         self.tup = None
         self.commandDepth = 0
+        self.error_handler = None
     class ArgumentError(Exception):
         pass
     class ArgumentTypeError(ArgumentError):
@@ -594,4 +597,5 @@ class commanger:
             odepth = self.commandDepth
         self.commandDepth = odepth
         return subCommanger(self, name, depth)
-        
+    def set_error_handler(self, handle):
+        self.error_handler = handle

@@ -213,8 +213,10 @@ class subCommanger:
                 e = self.evalArgs(args2)
 
                 self.parent._cArgs(args2, e[1])
-
-                unct(e[0])
+                try:
+                    funct(e[0])
+                except Exception as e:
+                    self.error_handler.callback(e)
                 sys.exit()
     def commandU(self, funct):
         args =self.argv
@@ -228,8 +230,10 @@ class subCommanger:
                 e = self.evalArgs(args2)
 
                 self.parent._cArgs(args2, e[1])
-
-                funct(**e[0])
+                try:
+                    funct(**e[0])
+                except Exception as e:
+                    self.error_handler.callback(e)                    
                 sys.exit()
     def basicCfig(self, l):
         """
@@ -539,7 +543,10 @@ class commanger:
         e = self.evalArgs(sys.argv)
 
         self._cArgs(sys.argv, e[1])
-        funct(e[0])
+        try:
+            funct(e[0])
+        except Exception as e:
+            self.error_handler.callback(e)        
     def commandU(self, funct):
         """
         Funct that runs on command. Key function. It is recommended to have only one of commanger.command and commanger.commandU
@@ -564,8 +571,10 @@ class commanger:
         e = self.evalArgs(sys.argv)
 
         self._cArgs(sys.argv, e[1])
-        
-        funct(**e[0])
+        try:
+            funct(**e[0])
+        except Exception as e:
+            self.error_handler.callback(e)
     def tups(self, args, u=False):
         """
         Run a tup command.

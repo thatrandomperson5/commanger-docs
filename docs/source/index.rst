@@ -29,7 +29,7 @@ Basic example:
 .. code:: py
 
 
-   cmd.basicConfig([1,2,"b"]) #set a basic config
+   cmd.basicCfig([1,2,"b"]) #set a basic config
 
    @cmd.command #Attach the main func
    def main(args): #Take in the args

@@ -44,6 +44,7 @@ Contents
    usage
    configure
    beta
+   api
 
    
 

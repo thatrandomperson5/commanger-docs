@@ -7,7 +7,8 @@ API
    commanger
 ..
 
-
+.. attributetable:: commanger.commanger
+..
    
 .. autoclass:: commanger.commanger
    :members:

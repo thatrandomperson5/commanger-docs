@@ -10,3 +10,6 @@ API
 .. attributetable:: commanger.commanger
    
 .. autoclass:: commanger.commanger
+   :members:
+   
+..
